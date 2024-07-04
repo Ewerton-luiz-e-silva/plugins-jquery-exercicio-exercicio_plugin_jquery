@@ -33,11 +33,11 @@ $('form').validate({
         }
     },
     submitHandler: function (form) {
-        ("Sua requisição foi enviada para análise, parabéns pela aquisição!");
+        alert("Sua requisição foi enviada para análise, parabéns pela aquisição!");
         form.reset();
     },
     invalidHandler: function (event, validator) {
-        ("Por favor, preencha os campos para prosseguir com a compra!");
+        alert("Por favor, preencha os campos para prosseguir com a compra!");
     }
 });
 
